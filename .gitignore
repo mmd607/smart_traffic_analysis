@@ -1,0 +1,55 @@
+# =============================================================================
+# .gitignore — Smart Traffic Analysis
+# =============================================================================
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.installed.cfg
+*.egg
+
+# --- Virtual Environment ---
+venv/
+.venv/
+env/
+ENV/
+.python-version
+
+# --- IDE / Editor ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# --- Project outputs (generated at runtime) ---
+# Output video
+output_annotated.mp4
+*.mp4
+
+# Runtime CSV log
+traffic_log.csv
+*.csv
+
+# Model weights (downloaded automatically by Ultralytics)
+yolov8n.pt
+*.pt
+
+# --- OS files ---
+.DS_Store
+desktop.ini
+
+# --- Logs and temp files ---
+*.log
+*.tmp
+*.bak
+
+# --- Jupyter / Notebook checkpoints ---
+.ipynb_checkpoints/
+*.ipynb_checkpoints
